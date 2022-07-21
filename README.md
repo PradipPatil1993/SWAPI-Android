@@ -7,7 +7,6 @@ This is Sample android application for SWAPI api implementation
 2. On First screen user can search the star war character/people or selected from dropdown option
 3. On Second screen user can see more details for selected character.
 
-
 ## How it's work internally ?
 1. https://swapi.dev/ - Free api used for sample example, find more details on link
 2. To Fetch the Characters, Character details and the Films for the selected charactes are get fetched using api's 
@@ -27,3 +26,8 @@ This is Sample android application for SWAPI api implementation
 1. UI Design - CardView, NavigationGraph, MaterialDesign
 1. Networking - Retrofit 
 2. Testing - JUnit, Mockito, Mockk
+
+
+## Video Demo
+ <img src="https://user-images.githubusercontent.com/11188728/180207098-ceafc56c-b4de-4aa7-b5f7-7829ee5c594f.gif" width="300" height="640">
+
