@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">StartWars</string>
+    <string name="character_fragment_title">Search Character</string>
+    <string name="character_details_fragment_title">Character Details</string>
+    <string name="autocomplete_view_hint">Search your favourite character</string>
+    <string name="character_selection_error_msg">Please select character from suggestion only</string>
+    <string name="something_went_wrong_error">Something went wrong try after sometimes</string>
+    <string name="no_intenet_connection">No internet connection, try after sometime</string>
+</resources>

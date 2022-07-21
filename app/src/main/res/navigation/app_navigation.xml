@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/startWarCharacterFragment">
+
+
+    <fragment
+        android:id="@+id/startWarCharacterFragment"
+        android:name="com.example.startwars.views.StartWarCharacterFragment"
+        android:label="@string/character_fragment_title"
+        tools:layout="@layout/fragment_start_war_character" >
+        <action
+            android:id="@+id/action_startWarCharacterFragment_to_startWarCharacterDetailsFragment"
+            app:destination="@id/startWarCharacterDetailsFragment" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/startWarCharacterDetailsFragment"
+        android:name="com.example.startwars.views.StartWarCharacterDetailsFragment"
+        tools:layout="@layout/fragment_start_war_character_details"
+        android:label="@string/character_details_fragment_title">
+
+        <argument
+            android:name="characterArg"
+            app:argType="com.example.startwars.api.model.Result" />
+    </fragment>
+</navigation>

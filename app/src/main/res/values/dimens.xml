@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimens_app_margin">20dp</dimen>
+    <dimen name="dimens_default_top">8dp</dimen>
+    <dimen name="dimens_card_radius">4dp</dimen>
+    <dimen name="dimens_text_size_1">30sp</dimen>
+    <dimen name="dimens_text_size_2">20sp</dimen>
+    <dimen name="dimens_text_size_3">15sp</dimen>
+</resources>
