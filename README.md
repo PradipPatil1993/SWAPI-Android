@@ -1,6 +1,6 @@
 # SWAPI API Sample Android Application
 
-This is an Sample android application for SWAPI api implementation 
+This is Sample android application for SWAPI api implementation 
 
 ## Project UI Flow
 1. Sample project has 2 screens 
@@ -15,13 +15,13 @@ This is an Sample android application for SWAPI api implementation
 4. To see the films details by the favourite character again api's get called then can be shown on details screen
 
 ## Technology stack 
-**Language** - Kotlin
-**Architecture** - MVVM
-**Dependency Injection** - Dagger's Hilt
-**Android Navigation** - Navigation graph
-**Layout Dresigning** - ConstraintLayout
-**Async Operation/Threading** - Coroutine
-**Testing** - Unit Test
+1. **Language** - Kotlin
+2. **Architecture** - MVVM
+3. **Dependency Injection** - Dagger's Hilt
+4. **Android Navigation** - Navigation graph
+5. **Layout Dresigning** - ConstraintLayout
+6. **Async Operation/Threading** - Coroutine
+7. **Testing** - Unit Test
 
 ## Third party libraries used
 1. UI Design - CardView, NavigationGraph, MaterialDesign
